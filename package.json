@@ -1,0 +1,24 @@
+{
+	"name": "cdcm-editor-api",
+	"version": "1.0.0",
+	"description": "Content management without walls.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://iambriansreed@github.com/cdcm/editor-api.git"
+	},
+	"author": "Brian Reed <me@iambrian.com> (http://iambrian.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cdcm/editor-api/issues"
+	},
+	"homepage": "https://github.com/cdcm/editor-api#readme",
+	"dependencies": {
+		"github-api": "^3.0.0",
+		"restify": "^5.0.0"
+	}
+}
